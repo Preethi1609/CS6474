@@ -120,13 +120,13 @@ def extract_comments(submission):
     return all_comments
 
 def save_checkpoints(sub_data, comment_data, subreddit):
-    pd.DataFrame(sub_data).to_csv(f'/home/hice1/istephen3/scratch/social_computing/checkpoint_submissions_{subreddit}.csv', index=False)
-    pd.DataFrame(comment_data).to_csv(f'/home/hice1/istephen3/scratch/social_computing/checkpoint_comments_{subreddit}.csv', index=False)
+    pd.DataFrame(sub_data).to_csv(f'/users/Preethi/social_computing/checkpoint_submissions_{subreddit}.csv', index=False)
+    pd.DataFrame(comment_data).to_csv(f'/users/Preethi/social_computing/checkpoint_comments_{subreddit}.csv', index=False)
     print(f"💾 Checkpoint saved ({len(sub_data)} submissions, {len(comment_data)} comments)")
 
 def save_final(sub_data, comment_data, subreddit, cutoff_date):
-    pd.DataFrame(sub_data).to_csv(f'/home/hice1/istephen3/scratch/social_computing/{subreddit}_until_{cutoff_date}_submissions.csv', index=False)
-    pd.DataFrame(comment_data).to_csv(f'/home/hice1/istephen3/scratch/social_computing/{subreddit}_until_{cutoff_date}_comments.csv', index=False)
+    pd.DataFrame(sub_data).to_csv(f'/users/Preethi/social_computing/{subreddit}_until_{cutoff_date}_submissions.csv', index=False)
+    pd.DataFrame(comment_data).to_csv(f'/users/Preethi/social_computing/{subreddit}_until_{cutoff_date}_comments.csv', index=False)
     print(f"✅ Final saved: {len(sub_data)} submissions, {len(comment_data)} comments")
 
 def crawl_submissions(subreddit_name, start_url, cutoff_date, checkpoint_every=10000):
@@ -137,8 +137,8 @@ def crawl_submissions(subreddit_name, start_url, cutoff_date, checkpoint_every=1
     seen_ids = set()
 
     # Resume if checkpoint exists
-    sub_cp = f'/home/hice1/istephen3/scratch/social_computing/checkpoint_submissions_{subreddit_name}.csv'
-    com_cp = f'/home/hice1/istephen3/scratch/social_computing/checkpoint_comments_{subreddit_name}.csv'
+    sub_cp = f'/users/Preethi/social_computing/checkpoint_submissions_{subreddit_name}.csv'
+    com_cp = f'/users/Preethi/social_computing/checkpoint_comments_{subreddit_name}.csv'
     if os.path.exists(sub_cp):
         submission_data = pd.read_csv(sub_cp).to_dict('records')
         seen_ids = set([s['id'] for s in submission_data])
@@ -188,10 +188,15 @@ def crawl_submissions(subreddit_name, start_url, cutoff_date, checkpoint_every=1
 
 def main():
     subreddits = {
-        'interestingasfuck': 'https://www.reddit.com/r/interestingasfuck/comments/15f0l11/the_salt_cathedral_in_poland/',
-        'thatsinsane': 'https://www.reddit.com/r/ThatsInsane/comments/15fegr6/consecutive_backflips/',
-        'malefashionadvice': 'https://www.reddit.com/r/malefashionadvice/comments/15rwsr1/daily_questions_ask_and_answer_here_15_august_2023/'
+        'Autism' : 'https://www.reddit.com/r/autism/comments/14mch6v/i_absolutely_hate_the_hiring_process/',
+        # 'ChronicPain' : 'https://www.reddit.com/r/ChronicPain/comments/14rrkbl/anyone_taking_opioids_for_chronic_pain/',
+        # 'MentalHealth' : 'https://www.reddit.com/r/mentalhealth/comments/14lx624/a_lot_of_nights_i_never_want_to_sleep_and_i_dont/'
+        # 'Autism' : 'https://www.reddit.com/r/autism/comments/1jpg4bk/working_on_an_oc_animatic_for_a_school_project/',
+        # 'interestingasfuck': 'https://www.reddit.com/r/interestingasfuck/comments/15f0l11/the_salt_cathedral_in_poland/',
+        # 'thatsinsane': 'https://www.reddit.com/r/ThatsInsane/comments/15fegr6/consecutive_backflips/',
+        # 'malefashionadvice': 'https://www.reddit.com/r/malefashionadvice/comments/15rwsr1/daily_questions_ask_and_answer_here_15_august_2023/'
     }
+    # cutoff_date = '2025-04-01'
     cutoff_date = '2023-05-24'
 
     for sub, url in subreddits.items():

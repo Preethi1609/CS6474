@@ -15,11 +15,14 @@ reddit = praw.Reddit(
 )
 
 # Input and output files
-# input_file = "scraped_participating.txt"
-# output_file = "participating_info.json"
+input_file = "scraped_participating_100.txt"
+output_file = "participating_info.json"
 
-input_file = "all_subreddits_full.txt"
-output_file = "all_subreddits_info.json"
+# input_file = "non_participating_100.txt"
+# output_file = "non_participating_info.json"
+
+# input_file = "try.txt"
+# output_file = "tryop.txt"
 
 # List to store subreddit data
 subreddit_data = []
@@ -28,7 +31,7 @@ def fetch_subreddit_info(subreddit_name):
     """Fetch detailed subreddit information and handle errors."""
     try:
         sub = reddit.subreddit(subreddit_name)
-        
+        print(sub)
         data = {
             "name": sub.display_name,
             "title": sub.title,
@@ -39,14 +42,14 @@ def fetch_subreddit_info(subreddit_name):
             "nsfw": sub.over18,
             "ad_friendly": sub.advertiser_category is not None,  # Checks if ad category exists
             # "default": sub.is_default,  # ✅ FIXED: Correct default subreddit check
-            "num_moderators": len(list(sub.moderator())),
+            # "num_moderators": len(list(sub.moderator())),
             "comments_per_moderator": sub.comment_score_hide_mins,  # Approximation
             "removed_content_fraction": sub.allow_images,  # Approximation (no direct API)
-            "automod": any("automoderator" in mod.name.lower() for mod in sub.moderator()),  # Detects AutoMod
-            "moderator_social_capital": sub.wiki_edit_age,  # Proxy for social capital
-            "user_social_capital": sub.user_is_moderator,  # Boolean
-            "economic_capital": sub.wiki_edit_count,  # Proxy for contribution
-            "cultural_capital": sub.allow_videos  # Proxy for cultural openness
+            # "automod": any("automoderator" in mod.name.lower() for mod in sub.moderator()),  # Detects AutoMod
+            # "moderator_social_capital": sub.wiki_edit_age,  # Proxy for social capital
+            "user_social_capital": None,  # Boolean
+            "economic_capital": None,  # Proxy for contribution
+            "cultural_capital": None  # Proxy for cultural openness
         }
         return data
     

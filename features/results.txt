@@ -1,0 +1,60 @@
+subscribers (+1.411694)
+
+Interpretation: A higher number of subscribers is strongly associated with a higher probability of subreddit participation in the Reddit blackout. Larger subreddits may have more visibility, influence, and organizational power to participate in mass events like the blackout.
+
+Justification: Larger communities are more likely to be active and organized enough to mobilize for social movements.
+
+num_rules (-1.055748)
+
+Interpretation: Subreddits with more rules are less likely to participate in the blackout. A higher number of rules may indicate stricter moderation or guidelines, making it more difficult for subreddits to take collective action or protest.
+
+Justification: Subreddits with a large number of rules may prioritize maintaining structure and control over supporting protest movements, potentially limiting freedom of expression and participation.
+
+active_users (-0.920828)
+(PREETHI: NOT REALLY, ONLY SHOWS CURRENT ACTIVE USERS, MIGHT NOT BE A GOOD FEATURE)
+Interpretation: Interestingly, having more active users appears to be associated with a slightly negative effect on participation. This could suggest that highly active subreddits, which often have intense engagement on a daily basis, may not prioritize or coordinate in protest actions as much as subreddits with less frequent but more coordinated activity.
+
+Justification: Highly active subreddits might be more focused on day-to-day discussions and may not have the time or consensus to participate in events like the blackout. Smaller subreddits might be more likely to rally together around causes.
+
+num_moderators (-0.424601)
+(PREETHI: ASSUMING NUM(MODERATORS) NOW=NUM(MODERATORS) THEN, ELSE DISCARD OUTPUT)
+Interpretation: More moderators are associated with a lower likelihood of participation. This could reflect that highly moderated communities tend to be more controlled, reducing the room for organic, grassroots movements like protests.
+
+Justification: A higher number of moderators might indicate stricter governance, making it more difficult for subreddits to act collectively in protest.
+
+economic_capital (+0.247378)
+
+Interpretation: Subreddits with users who have more economic capital are slightly more likely to participate. Economic capital could give users more leeway to take part in activities like the blackout, which may involve reducing time spent on Reddit or facing consequences like lower user engagement.
+
+Justification: People with more economic resources might be more able to afford participating in movements without as much financial or professional risk.
+
+is_default (-0.238906)
+
+Interpretation: Default subreddits are less likely to participate in the blackout. These subreddits are usually the largest and most mainstream, meaning they may have more to lose in terms of Reddit’s policies and enforcement.
+
+Justification: Default subreddits, due to their massive user base, may face more scrutiny from Reddit's moderation and might hesitate to participate in protests that could affect their visibility or status.
+
+subreddit_age (+0.200103)
+
+Interpretation: Older subreddits are more likely to participate in the blackout. Over time, subreddits tend to develop stronger communities and identities, making them more likely to take collective action for causes they believe in.
+
+Justification: Subreddits with a longer history likely have stronger community cohesion and may be more established in terms of mobilization capacity.
+
+user_social_capital (+0.114012)
+
+Interpretation: A higher level of social capital is associated with a higher likelihood of participation. Subreddits with users who are more socially connected (trust, reciprocity, etc.) may be more likely to mobilize and engage in collective action.
+
+Justification: Stronger community ties and trust encourage users to act together for causes, such as protesting the changes Reddit made during the blackout.
+
+has_automod (-0.038524)
+
+Interpretation: The presence of an automoderator in a subreddit slightly reduces the likelihood of participation. This could be because automoderators may enforce strict rules, limiting more spontaneous or unregulated actions like protests.
+
+Justification: Automoderation could restrict the flow of discussions or actions that don't fit within predefined rules, reducing the ability to organize protests.
+
+cultural_capital (+0.008699)
+
+Interpretation: Cultural capital, though positive, has a very small effect on participation. Subreddits with higher cultural capital (better understanding of Reddit's norms, etc.) might be slightly more likely to participate, but the effect is minimal.
+
+Justification: While cultural capital can play a role, its effect on participation in this specific case is likely overshadowed by stronger factors like active user engagement and social capital.
+

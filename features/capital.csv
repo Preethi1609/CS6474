@@ -1,0 +1,201 @@
+subreddit,user_social_capital,economic_capital,cultural_capital
+home,not applicable,not applicable,not applicable
+askreddit,not applicable,not applicable,not applicable
+nostupidquestions,not applicable,not applicable,not applicable
+baldursgate3,not applicable,not applicable,not applicable
+palworld,not applicable,not applicable,not applicable
+mildlyinfuriating,not applicable,not applicable,not applicable
+peterexplainsthejoke,not applicable,not applicable,not applicable
+aitah,not applicable,not applicable,not applicable
+movies,not applicable,not applicable,not applicable
+helldivers,not applicable,not applicable,not applicable
+worldnews,not applicable,not applicable,not applicable
+leagueoflegends,not applicable,not applicable,not applicable
+pcmasterrace,not applicable,not applicable,not applicable
+news,not applicable,not applicable,not applicable
+politics,not applicable,not applicable,not applicable
+wallstreetbets,not applicable,high,not applicable
+nottheonion,not applicable,not applicable,not applicable
+memes,not applicable,not applicable,low
+outoftheloop,not applicable,not applicable,not applicable
+honkaistarrail,not applicable,not applicable,not applicable
+beamazed,not applicable,not applicable,not applicable
+nba,not applicable,not applicable,not applicable
+mapporn,not applicable,not applicable,not applicable
+genshin_impact,not applicable,not applicable,not applicable
+classicwow,not applicable,not applicable,not applicable
+eldenring,not applicable,not applicable,not applicable
+badroommates,not applicable,not applicable,not applicable
+personalfinance,not applicable,high,not applicable
+technology,not applicable,not applicable,not applicable
+whitepeopletwitter,not applicable,not applicable,not applicable
+legaladvice,high,not applicable,not applicable
+sysadmin,not applicable,not applicable,not applicable
+combatfootage,not applicable,not applicable,low
+relationship_advice,not applicable,not applicable,not applicable
+discordapp,not applicable,not applicable,not applicable
+games,not applicable,not applicable,not applicable
+tiktokcringe,not applicable,not applicable,low
+theydidthemath,not applicable,not applicable,high
+wtf,not applicable,not applicable,low
+oldschoolcool,not applicable,not applicable,not applicable
+dankmemes,not applicable,not applicable,low
+ukrainewarvideoreport,not applicable,not applicable,low
+steamdeck,not applicable,not applicable,not applicable
+manga,not applicable,not applicable,not applicable
+rareinsults,not applicable,not applicable,low
+amiwrong,not applicable,not applicable,not applicable
+nijisanji,not applicable,not applicable,not applicable
+kanye,not applicable,not applicable,low
+television,not applicable,not applicable,not applicable
+truckers,not applicable,not applicable,not applicable
+explainthejoke,not applicable,not applicable,not applicable
+twoxchromosomes,not applicable,not applicable,not applicable
+trueoffmychest,not applicable,not applicable,not applicable
+honkaistarrail_leaks,not applicable,not applicable,not applicable
+tekken,not applicable,not applicable,not applicable
+weird,not applicable,not applicable,low
+entertainment,not applicable,not applicable,not applicable
+boomersbeingfools,not applicable,not applicable,low
+askuk,not applicable,not applicable,not applicable
+twitch,not applicable,not applicable,not applicable
+destiny,not applicable,not applicable,not applicable
+comics,not applicable,not applicable,not applicable
+millennials,not applicable,not applicable,not applicable
+hololive,not applicable,not applicable,not applicable
+travel,not applicable,not applicable,not applicable
+learnprogramming,not applicable,not applicable,not applicable
+jujutsukaisen,not applicable,not applicable,not applicable
+apexlegends,not applicable,not applicable,not applicable
+genz,not applicable,not applicable,not applicable
+kidsarefuckingstupid,not applicable,not applicable,low
+pokemon,not applicable,not applicable,not applicable
+genshin_impact_leaks,not applicable,not applicable,not applicable
+personalfinancecanada,not applicable,high,not applicable
+imthemaincharacter,not applicable,not applicable,low
+books,not applicable,not applicable,high
+fortnitebr,not applicable,not applicable,not applicable
+thatsinsane,not applicable,not applicable,low
+povertyfinance,not applicable,low,not applicable
+geography,not applicable,not applicable,high
+skyrimmods,not applicable,not applicable,not applicable
+animemes,not applicable,not applicable,low
+germany,not applicable,not applicable,not applicable
+jujutsufolk,not applicable,not applicable,not applicable
+bg3builds,not applicable,not applicable,not applicable
+ukraine,not applicable,not applicable,not applicable
+warthunder,not applicable,not applicable,not applicable
+tumblr,not applicable,not applicable,not applicable
+webdev,not applicable,not applicable,not applicable
+fashionreps,not applicable,not applicable,not applicable
+ask,not applicable,not applicable,not applicable
+dataisbeautiful,not applicable,not applicable,high
+twohottakes,not applicable,not applicable,not applicable
+copypasta,not applicable,not applicable,low
+datahoarder,not applicable,not applicable,not applicable
+changemyview,not applicable,not applicable,high
+sex,not applicable,not applicable,not applicable
+allthatisinteresting,not applicable,not applicable,not applicable
+hazbinhotel,not applicable,not applicable,not applicable
+redditonwiki,not applicable,not applicable,not applicable
+science,not applicable,not applicable,high
+funny,not applicable,not applicable,low
+aww,not applicable,not applicable,not applicable
+gaming,not applicable,not applicable,not applicable
+Music,not applicable,not applicable,not applicable
+Pics,not applicable,not applicable,not applicable
+todayilearned,not applicable,not applicable,not applicable
+art,not applicable,not applicable,high
+DIY,not applicable,not applicable,not applicable
+EarthPorn,not applicable,not applicable,not applicable
+explainlikeimfive,not applicable,not applicable,high
+food,not applicable,not applicable,not applicable
+gadgets,not applicable,not applicable,not applicable
+LifeProTips,not applicable,not applicable,not applicable
+mildlyinteresting,not applicable,not applicable,not applicable
+space,not applicable,not applicable,high
+sports,not applicable,not applicable,not applicable
+videos,not applicable,not applicable,not applicable
+creepy,not applicable,not applicable,not applicable
+Damnthatsinteresting,not applicable,not applicable,not applicable
+Futurology,not applicable,not applicable,high
+GetMotivated,not applicable,not applicable,not applicable
+history,not applicable,not applicable,high
+interestingasfuck,not applicable,not applicable,not applicable
+InternetIsBeautiful,not applicable,not applicable,not applicable
+lifehacks,not applicable,not applicable,not applicable
+listentothis,not applicable,not applicable,not applicable
+NatureIsFuckingLit,not applicable,not applicable,not applicable
+nosleep,not applicable,not applicable,not applicable
+philosophy,not applicable,not applicable,high
+tifu,not applicable,not applicable,not applicable
+unexpected,not applicable,not applicable,not applicable
+wholesomememes,not applicable,not applicable,low
+AdviceAnimals,not applicable,not applicable,low
+amitheasshole,not applicable,not applicable,not applicable
+AnimalsBeingBros,not applicable,not applicable,not applicable
+AnimalsBeingDerps,not applicable,not applicable,not applicable
+AnimalsBeingJerks,not applicable,not applicable,not applicable
+anime,not applicable,not applicable,not applicable
+AskMen,not applicable,not applicable,not applicable
+askwomen,not applicable,not applicable,not applicable
+bestof,not applicable,not applicable,not applicable
+bitcoin,not applicable,high,not applicable
+BlackPeopleTwitter,not applicable,not applicable,not applicable
+buildapc,not applicable,not applicable,not applicable
+Confession,not applicable,not applicable,not applicable
+ContagiousLaughter,not applicable,not applicable,not applicable
+cryptocurrency,not applicable,high,not applicable
+dadjokes,not applicable,not applicable,low
+EatCheapAndHealthy,not applicable,low,not applicable
+facepalm,not applicable,not applicable,low
+FoodPorn,not applicable,not applicable,not applicable
+gardening,not applicable,not applicable,not applicable
+HistoryMemes,not applicable,not applicable,low
+HumansBeingBros,not applicable,not applicable,not applicable
+mademesmile,not applicable,not applicable,not applicable
+malefashionadvice,high,not applicable,not applicable
+me_irl,not applicable,not applicable,low
+minecraft,not applicable,not applicable,not applicable
+nextfuckinglevel,not applicable,not applicable,not applicable
+photography,not applicable,not applicable,high
+ps4,not applicable,not applicable,not applicable
+stocks,not applicable,high,not applicable
+Tattoos,not applicable,not applicable,not applicable
+therewasanattempt,not applicable,not applicable,low
+tinder,not applicable,not applicable,not applicable
+2meirl4meirl,not applicable,not applicable,low
+3amjokes,not applicable,not applicable,low
+3dprinting,not applicable,not applicable,not applicable
+AbruptChaos,not applicable,not applicable,low
+AbsoluteUnits,not applicable,not applicable,low
+adorableporn,not applicable,not applicable,not applicable
+agedlikemilk,not applicable,not applicable,low
+Amateur,not applicable,not applicable,low
+amateurcumsluts,not applicable,not applicable,low
+AMD,not applicable,not applicable,not applicable
+Analog,not applicable,not applicable,high
+Android,not applicable,not applicable,not applicable
+AnimalsBeingGeniuses,not applicable,not applicable,not applicable
+AnimalTextGifs,not applicable,not applicable,not applicable
+antiwork,not applicable,low,not applicable
+Apple,not applicable,not applicable,not applicable
+applyingtocollege,high,not applicable,not applicable
+architecture,not applicable,not applicable,high
+AsianBeauty,not applicable,not applicable,not applicable
+askhistorians,not applicable,not applicable,high
+AssholeDesign,not applicable,not applicable,not applicable
+astrophotography,not applicable,not applicable,high
+atheism,not applicable,not applicable,not applicable
+audiophile,not applicable,high,not applicable
+Australia,not applicable,not applicable,not applicable
+Battlestations,not applicable,not applicable,not applicable
+BeautyGuruChatter,not applicable,not applicable,not applicable
+BiggerThanYouThought,not applicable,not applicable,not applicable
+BikiniBottomTwitter,not applicable,not applicable,low
+blackmagicfuckery,not applicable,not applicable,not applicable
+blessedimages,not applicable,not applicable,not applicable
+blursedimages,not applicable,not applicable,not applicable
+boardgames,not applicable,not applicable,not applicable
+bodyweightfitness,not applicable,not applicable,not applicable
+BoneAppleTea,not applicable,not applicable,low
